@@ -108,6 +108,7 @@ ul.hmenu li {
 
 .topnav {
   height: 40px;
+  padding: 5px 0;
 }
 
 .seenelogo {
@@ -140,6 +141,10 @@ ul.hmenu li {
 }
 
 /*main body*/
+.body h1 {
+  font-weight: 500;
+}
+
 .body a {
   color: #14b8d5;
   text-decoration: none;
@@ -160,6 +165,13 @@ ul.hmenu li {
   text-decoration: none;
   display: inline-block;
   padding: 8px 12px;
+}
+
+.video-home {
+  float: right;
+  width: 470px;
+  height: 260px;
+  margin-left: 15px;
 }
 
 .video {
@@ -273,8 +285,10 @@ img {
    Media Queries
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-
+@media only screen and (max-width: 768px) {
+  .video-home {
+    float: none;
+  }
 }
 
 @media print,
