@@ -108,13 +108,15 @@ ul.hmenu li {
 
 .topnav {
   height: 40px;
-  padding: 5px 0;
+  padding: 11px 0;
 }
 
 .seenelogo {
   margin: 0;
   float: left;
   font-style: italic;
+  font-weight: 900;
+  font-family: Lato
 }
 
 .header ul {
@@ -392,6 +394,11 @@ img {
 }
 
 @media only screen and (max-width: 600px) {
+  .topnav .hmenu li {
+    display: block;
+    text-align: right;
+  }
+
   .about-team-member {
     float: none;
     width: auto;
