@@ -341,6 +341,14 @@ img {
   filter: grayscale(1);
 }
 
+/*legal*/
+.sunset-callout {
+  border: 1px solid white;
+  margin: 25px 0;
+  padding: 1em 2em;
+  font-size: 18px;
+}
+
 /*footer*/
 .footer {
   background-color: #2f4144;
