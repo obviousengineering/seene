@@ -185,7 +185,7 @@ ul.hmenu li {
 
 .video {
   margin: 16px 0;
-  height: 520px;
+  height: 528px;
 }
 
 .sol-image {
@@ -375,6 +375,10 @@ img {
    ========================================================================== */
 
 @media only screen and (max-width: 800px) {
+  .video {
+    height: 420px;
+  }
+
   .video-home {
     float: none;
   }
@@ -418,6 +422,10 @@ img {
     display: block;
     width: 150px;
     margin: 10px auto;
+  }
+
+  .video {
+    height: 260px;
   }
 }
 
