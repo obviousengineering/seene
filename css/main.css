@@ -59,7 +59,7 @@ body {
   background-color: #364d52;
   color: #FFF;
   padding: 0;
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 20px;
   font-weight: 300;
 }
@@ -107,8 +107,8 @@ ul.hmenu li {
 }
 
 .topnav {
-  height: 40px;
-  padding: 11px 0;
+  height: 25px;
+  padding: 17px 0;
 }
 
 .seenelogo {
@@ -116,7 +116,16 @@ ul.hmenu li {
   float: left;
   font-style: italic;
   font-weight: 900;
-  font-family: Lato
+  /*font-family: Lato;*/
+  background-image: url("../img/seene-logo.png");
+  background-repeat: no-repeat;
+  background-size: 74px 24px;
+  width: 74px;
+  height: 24px;
+}
+
+.seenelogo span {
+  display: none;
 }
 
 .header ul {
@@ -127,7 +136,7 @@ ul.hmenu li {
 }
 
 .header .hmenu li {
-  margin: 8px 16px 0;
+  margin: 0 16px;
 }
 
 .header a {
@@ -217,7 +226,7 @@ blockquote:before {
   float: left;
   margin-left: -.5em;
   margin-top: .1em;
-  font: italic 400%/1 Lato;
+  font: italic 400%/1 Helvetica;
   color: rgba(252, 252, 252, 0.5);
 }
 
